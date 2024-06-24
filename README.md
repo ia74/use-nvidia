@@ -19,13 +19,13 @@ This section is a WIP. This will improve later.
 ```sh
 Usage: unv [action] [options]
 Actions:
-  on
-  off
-  status
-  ps
-  run
+  on - Just turn your NVIDIA GPU on.
+  off - Just turn your NVIDIA GPU off.
+  status - Query the status of your NVIDIA GPU.
+  ps - List all the processes running on your NVIDIA GPU.
+  run - Run a program on your NVIDIA GPU.
 Options:
-  --verbose
+  --verbose - Get output from UNVLogger.
 
 Please note if you are using (unv run), you cannot apply --verbose.
 A simple workaround is to edit your config, and change verbose in the app section to true.
