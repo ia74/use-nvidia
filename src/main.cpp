@@ -276,11 +276,7 @@ int main(int argc, char **argv)
 	if (argc > 1)
 	{
 		std::string arg = argv[1];
-		if (arg == "list")
-		{
-			action = 1;
-		}
-		else if (arg == "on")
+		if (arg == "on")
 		{
 			action = 2;
 		}

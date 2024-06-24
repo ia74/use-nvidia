@@ -19,7 +19,6 @@ This section is a WIP. This will improve later.
 ```sh
 Usage: unv [action] [options]
 Actions:
-  list
   on
   off
   status
